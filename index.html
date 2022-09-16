@@ -1,14 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<H1><B> Rakshit Rautela </B></H1>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/style.css"/>
+	<link rel="stylesheet" href="/css/fontawesome-free-6.2.0-web/css/all.min.css" />
+	<script type="text/javascript" src="/js/bootstrap.bundle.js"></script>
+	<script type="text/javascript" src="/js/index.js"></script>
+	<title>Rakshit Rautela</title>
+</head>
 
-<H3><B> Creative website designer </B></H3>
+<body style="background-color: rgb(11, 11, 20)" onload="typeWriter()">
+	<!-- navigation  -->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-lg" id="navbar sticky" style="background-color: #1a7fd6 ;">
+		<div class="container-fluid row">
+			<div class="col-2">
+			<a class="navbar-brand ms-5 ps-3 d-flex text-center align-items-center" id="myIcon" href="#" style="border-radius: 4rem;">
+				<i class="far fa-registered fa-1x ps-1"></i>
+				<span class="ps-1">Rakshit</span>
+				<!-- <img src="/img/kick.jpg" alt="" width="90" height="90" style="border-radius: 12rem" /> -->
+			</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			<div class="collapse navbar-collapse col-6 m-0 p-0 float-right flex-row-reverse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item ps-2">
+						<a class="nav-link" aria-current="page" id="colorBlack" href="#">Home</a>
+					</li>
+					<li class="nav-item ps-2">
+						<a class="nav-link" aria-current="page" id="colorBlack" href="#about">About</a>
+					</li>
+					<li class="nav-item ps-2">
+						<a class="nav-link" id="colorBlack" href="#education">Education</a>
+					</li>
+					<li class="nav-item ps-2">
+						<a class="nav-link" id="colorBlack" href="#skills">Skills</a>
+					</li>
+					<li class="nav-item ps-2">
+						<a class="nav-link" id="colorBlack" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item ps-2">
+						<a class="nav-link" id="colorBlack" href="#contact" >Contact</a>
+					</li>
+					<li class="nav-item ps-3">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle bg-dark text-light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								Links
+							</button>
+							<ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+								<li><a class="p-1 text-decoration-none text-primary" href="https://www.linkedin.com/in/rakshitrautela7/" target="_blank"><i class="fab fa-linkedin fa-1x p-2"></i>Linkedin</a></li> 
+								<li><a class="p-1 text-decoration-none text-primary" href="https://github.com/r0ckYr" target="_blank"><i class="fab fa-github fa-1x p-2"></i>Github</a></li>
+								<li><a class="p-1 text-decoration-none text-primary" href="https://twitter.com/r0ckYrp" target="_blank"><i class="fab fa-twitter fa-1x p-2"></i>Twitter</a></li>
+								<li><a class="p-1 text-decoration-none text-primary" href="https://hackerone.com/r0ckyr" target="_blank"><i class="fas fa-skull fa-1x p-2"></i>Hackerone</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-1">
 
-<a href="https://twitter.com/r0ckYrp" > Twitter Profile </a> </br>
+			</div>
+		</div>
+	</nav>
 
-<a href="https://www.linkedin.com/in/rakshitrautela7/" > Linkedin Profile </a> </br> 
+	<!-- home section  -->
+	<section class="container-fluid mt-5 mb-5 pb-5 pt-5" id="home">
+		<div class="row justify-content-center">
+			<div class="col-6 mt-5">
+				<h1 class="h1 text-white ps-5" id="nameText"></h1>
+				<h1 class="h1 text-white ps-5" id="nameText2"></h1>
+				<h4 class="text-white ps-5" id="mySummary">
+					
+				</h4>
+				
+				<button type="button" class="btn btn-primary rounded ms-5 mt-3"><a href="#about" class="btn btn-primary">About Me <i class="fas fa-arrow-circle-down"></i></a></button>
+				<div class="socials d-flex ps-4 row">
+					<ul class="social-icons p-3 m-4 d-flex" style="list-style: none;">
+					  <li><a class="col-2 pl-5" href="https://www.linkedin.com/in/rakshitrautela7/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li> 
+					  <li><a class="col-2 ps-5" href="https://github.com/r0ckYr" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+					  <li><a class="col-2 ps-5" href="https://twitter.com/r0ckYrp" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></li>
+					  <li><a class="col-2 ps-5" href="https://hackerone.com/r0ckyr" target="_blank"><i class="fas fa-skull fa-3x"></i></a></li>
+					</ul>
+				  </div>
+			</div>
+			<div class="col-5 ms-5">
+				<img draggable="false" class="pt-4 mt-4 vert-move" src="/img/hero1.png" height=400 alt="" style="border-radius: 20rem;">
+			</div>
+		</div>
+	</section>
 
-<a href="https://hackerone.com/r0ckyr?type=user" > HackerOne Profile </a> </br>
-      
-<a href="https://bugcrowd.com/r0ckY_7" > BugCrowd Profile </a> </br>
+	<!-- about me section  -->
+	<section class="container-fluid mb-5 pb-5 pt-2" id="about">
+		<div class="row justify-content-center">
+			<div class="col-4 justify-content-center text-center">
+				<h1 class="h1 text-white"><i class="fa fa-user p-2"></i> About</h1>
+			</div>
+		</div>
 
-<a href="https://github.com/r0ckYr" > Github </a>
+		<div class="row mt-5 pt-3 pb-3 justify-content-center">
+			<div class="col-5">
+				<img src="/img/hero1.png" class="tilt" height=400 alt=""/>
+			</div>
+			<div class="col-5 justify-content-center">
+				<h2 class="h2 text-white">I'm Rakshit Rautela</h2>
+				<h4 class="h4 text-white">Student</h4>
+				<p class="p text-white">I'm a student at Graphic Era Hill University. Interested in Software Development with Java and Python. I build WebApps and Websites using HTML/CSS, Bootstrap and JavaScript
+					<br>Proﬁcient in Java, Python, C/C++, HTML/CSS and JavaScript. <br>Part time Bug Bounty Hunter.</p>
+				<div class="row">
+					<div class="col-6 d-flex ps-3">
+						<p class="p font-weight-bold text-primary">Age: </p>
+						<p class="p text-white ps-1">19</p>
+					</div>
+					<div class="col-6 d-flex ps-3">
+						<p class="p font-weight-bold text-primary">Email: </p>
+						<p class="p text-white ps-1">rakshitrautela17@gmail.com</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 d-flex ps-3">
+						<p class="p font-weight-bold text-primary">Phone: </p>
+						<p class="p text-white ps-1">+91 745-296-2851</p>
+					</div>
+					<div class="col-6 d-flex ps-3">
+						<p class="p font-weight-bold text-primary">Location: </p>
+						<p class="p text-white ps-1">Dehradun, India - 248001</p>
+					</div>
+				</div>
+				<button type="button" class="btn btn-primary rounded mt-5"><a href="/files/Rakshit's Resume.pdf" target="_blank" class="btn btn-primary">Resume<i class="fas fa-arrow-circle-down p-1"></i></a></button>
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-- education section  -->
+	<section id="education" class="container-lg pb-3">
+		<div class="row justify-content-center">
+			<div class="col-4 d-flex">
+				<h1 class="heading text-white justify-content-center"><i class="fas fa-laptop-code p-2"></i>My Education</h1>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-6 d-flex">
+				<p class="p text-white">Education is not the learning of facts, but the training of the mind to think.</p>
+			</div>	
+		</div>
+		<div class="row bg-dark p-0 m-0 mt-5 mb-4">
+			<div class="col-3 p-0 m-0">
+				<img src="/img/gehu-dehradun.jpg" alt="..." widht=200 height=190 class="img-fluid">
+			</div>
+			<div class="col mr-4 ms-2 pt-2">
+				<a href="https://www.gehu.ac.in/" class="text-decoration-none text-primary"><h3 class="h3  py-2">
+					Bachelor of Technology in Computer Science and Engineering
+				</h3></a>
+				<p class="p text-white">Graphic Era Hill University | Dehradun</p>
+				<h3 class="h4 text-white py-2">2021-2025 | Pursuing</h3>
+			</div>
+		</div>
+		<div class="row bg-dark p-0 m-0 my-3 mb-5">
+			<div class="col-3 p-0 m-0">
+				<img src="/img/sem3.png" alt="..." widht=200 height=270 class="img-fluid">
+			</div>
+			<div class="col mr-4 ms-2 pt-2">
+				<a href="https://www.stjosephscollege.in/" class="text-decoration-none"><h3 class="h3 text-primary py-2">
+					Secondary(ICSE) and Higher Secondary(ISC) 
+				</h3></a>
+				<p class="p text-white">St. Joseph's College | Nainital</p>
+				<h3 class="h4 text-white py-2">2009-2021 | Completed</h3>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- skills section -->
+	<section id="skills" class="container-fluid mb-5 pt-5">
+		<div class="row justify-content-center">
+			<div class="col-3 d-flex justify-content-center">
+				<h1 class="heading text-white"><i class="fas fa-laptop-code p-2"></i>Skills</h1>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Java</h4>
+				<div class="progress">
+					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Python</h4>
+				<div class="progress">
+					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Linux</h4>
+				<div class="progress">
+					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Networking</h4>
+				<div class="progress">
+					<div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">MySQL</h4>
+				<div class="progress">
+					<div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Bash</h4>
+				<div class="progress">
+					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-center">
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Git</h4>
+				<div class="progress">
+					<div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Amazon AWS</h4>
+				<div class="progress">
+					<div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Javascript</h4>
+				<div class="progress">
+					<div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+			<div class="col-5 ps-5 m-4">
+				<h4 class="h4 text-white">Web Application Security</h4>
+				<div class="progress">
+					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+						aria-valuemax="100"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- projects section  -->
+	<section id="projects" class="container-lg">
+		<div class="row justify-content-center">
+			<div class="col-3">
+				<h1 class="h1 text-white"><i class="fas fa-laptop-code p-2"></i>Projects</h1>
+			</div>
+		</div>
+		<div class="row pt-4 mt-5 justify-content-center">
+			<div class="col-4">
+				<div class="card p-0 m-0" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/Student-Management-System-Guide-min.png" class="card-img-top" alt="..." widht=500 height=200>
+					<div class="p-1 justify-content-center text-left">
+						<h6 class="h4 text-white">Student Management</h6>
+					</div>
+				  </div>
+			</div>
+			<div class="col-4">
+				<div class="card" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/portfolio.png" class="card-img-top" alt="..." widht=500 height=200>
+					<div class="p-1 justify-content-center text-left">
+						<p class="h4 text-white">Personal Portfolio</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-4">
+				<div class="card" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/maxresdefault.jpg" class="card-img-top" alt="..." widht=400 height=200>
+					<div class="p-1 text-left">
+						<p class="h4 text-white">Arduino Car</p>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<div class="row pt-4 mt-5 justify-content-center">
+			<div class="col-4">
+				<div class="card" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/CommingSoon.png" class="card-img-top" alt="..." widht=300 height=200>
+					<div class="p-1 justify-content-center text-left">
+						<p class="h4 text-white">Coming Soon</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-4">
+				<div class="card" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/ComingSoon2.jpg" class="card-img-top" alt="..." widht=300 height=200>
+					<div class="p-1 justify-content-center text-left">
+						<p class="h4 text-white">Coming Soon</p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-4">
+				<div class="card" style="width: 18rem;background-color: rgb(1, 78, 245);">
+					<img src="/img/CommingSoon.png" class="card-img-top" alt="..." widht=300 height=200>
+					<div class="p-1 justify-content-center text-left">
+						<p class="h4 text-white">Coming Soon</p>
+					</div>
+				  </div>
+			</div>
+		</div>
+
+
+	</section>
+	
+
+
+	<!-- footer section  -->
+	<footer class="bg-dark container-fluid" id="contact">
+		<div class="row pt-4 mt-4 justify-content-center">
+			<div class="col-4 ms-5">
+				<h2 class="h2 text-white">Rakshit's Portfolio</h2>
+				<p class="p text-white pt-1">Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+				<p class="p text-white pt-4 mt-4">Keep Rising 🚀. Connect with me over live chat!</p>
+			</div>
+			<div class="col-3 ms-5 d-flex flex-column">
+				<h2 class="h2 text-white pb-1">Quick Links</h2>
+				<a class="text-decoration-none p-1" href="#home" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> home</a>
+				<a class="text-decoration-none p-1" href="#about" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> about</a>
+				<a class="text-decoration-none p-1" href="#skills" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> skills</a>
+				<a class="text-decoration-none p-1" href="#education" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> education</a>
+				<a class="text-decoration-none p-1" href="#projects" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> projects</a>
+				<a class="text-decoration-none p-1" href="#projects" id="colorWhite"><i class="fas fa-chevron-circle-right"></i> experience</a>
+			</div>
+			<div class="col-3 ms-5">
+				<h2 class="h2">Contact Info</h2>
+				<p class="p" id="colorWhite"><i class="fas fa-phone p-1"></i>+91 745-296-2851</p>
+				<p class="p" id="colorWhite"><i class="fa fa-envelope p-1"></i>rakshitrautela17@gmail.com</p>
+				<p class="p" id="colorWhite"><i class="fa fa-location-arrow p-1"></i>Dehradun, India - 248001</p>
+				 <div class="share">
+					<a href="https://www.linkedin.com/in/rakshitrautela7" class="fab fa-linkedin p-2 text-decoration-none fa-2x" aria-label="LinkedIn" target="_blank"></a>
+					<a href="https://github.com/r0ckYr" class="fab fa-github p-2 text-decoration-none fa-2x" aria-label="GitHub" target="_blank"></a>
+					<a href="mailto:rakshitrautela17@gmail.com" class="fas fa-envelope p-2 text-decoration-none fa-2x" aria-label="Mail" target="_blank"></a>
+					<a href="https://twitter.com/r0ckYrp" class="fab fa-twitter p-2 text-decoration-none fa-2x" aria-label="Twitter" target="_blank"></a>
+					<a href="https://hackerone.com/r0ckyr" class="fas fa-skull p-2 text-decoration-none fa-2x" aria-label="Hackerone" target="_blank"></a>
+				</div> 
+			</div>
+		</div>
+		<hr></hr>
+	</footer>
+</body>
+
+</html>
