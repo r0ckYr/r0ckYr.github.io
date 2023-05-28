@@ -86,3 +86,18 @@ img.vert-move {
     margin-bottom:0;
   }
 }
+
+canvas {
+  display: block !important;
+  vertical-align: bottom !important;
+}
+#tsparticles {
+  position: absolute!important;
+  width: 100%!important;
+  height: 100%!important;
+  background-color: black!important;
+  background-image: url("")!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-position: 50% 50%!important;
+}

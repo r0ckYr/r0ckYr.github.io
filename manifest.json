@@ -1,0 +1,11 @@
+{
+    "name": "my site",
+    "version": "1.0.0",
+    "description": "my site",
+    "manifest_version": 3,
+    "author": "Rocky",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "rocky"
+    }
+}
