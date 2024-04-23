@@ -1,11 +1,11 @@
 {
     "name": "my site",
     "version": "1.0.0",
-    "description": "my site",
+    "description": "Rakshit",
     "manifest_version": 3,
-    "author": "Rocky",
+    "author": "Rakshit",
     "action":{
         "default_popup": "index.html",
-        "default_title": "rocky"
+        "default_title": "Rakshit"
     }
 }
